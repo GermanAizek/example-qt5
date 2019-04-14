@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DiplomClass</class>
+ <widget class="QMainWindow" name="DiplomClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>539</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Diplom</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>281</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Входные данные</string>
+    </property>
+    <widget class="QComboBox" name="elements">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>261</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Масляные вентиляторы</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Холодильные машины</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Гидравлическая система холодильных машин</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Вентиляторы охлаждения</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Блок питания</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>111</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Выбор элемента:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>191</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Статистика поломок за 1 год:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="january">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>110</y>
+       <width>191</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="february">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>140</y>
+       <width>191</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="march">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>170</y>
+       <width>191</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="april">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>200</y>
+       <width>191</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="may">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>230</y>
+       <width>191</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="june">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>260</y>
+       <width>191</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="jule">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>290</y>
+       <width>191</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="august">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>320</y>
+       <width>191</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="september">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>350</y>
+       <width>191</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="october">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>380</y>
+       <width>191</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="november">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>410</y>
+       <width>191</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>55</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Январь</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>140</y>
+       <width>55</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Февраль</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>55</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Март</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>200</y>
+       <width>55</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Апрель</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>230</y>
+       <width>55</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Май</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>260</y>
+       <width>55</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Июнь</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>290</y>
+       <width>55</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Июль</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>320</y>
+       <width>55</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Август</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>350</y>
+       <width>55</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Сентябрь</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>380</y>
+       <width>55</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Октябрь</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>410</y>
+       <width>55</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Ноябрь</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>440</y>
+       <width>55</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Декабрь</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="decamber">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>440</y>
+       <width>191</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>0</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>10</y>
+      <width>281</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Выходные данные</string>
+    </property>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>261</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Количество отказов на следующий месяц:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>131</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Место хранения ЗИП:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_17">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>180</y>
+       <width>151</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Время доставки (дней):</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="nextDestroy">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>251</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="dateDelivery">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>220</y>
+       <width>251</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="city">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>130</y>
+       <width>251</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="calcButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>490</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Рассчитать</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Diplom.qrc"/>
+ </resources>
+ <connections/>
+</ui>
